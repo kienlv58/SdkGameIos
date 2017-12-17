@@ -8,12 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		264B04E11FE4F8BC0050D350 /* ApiSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 264B04DF1FE4F8BC0050D350 /* ApiSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264B04EE1FE4FC080050D350 /* ConfigFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 264B04EC1FE4FC080050D350 /* ConfigFacebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264B04EF1FE4FC080050D350 /* ConfigFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 264B04ED1FE4FC080050D350 /* ConfigFacebook.m */; };
+		265689C01FE64937006E2F5C /* MyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 265689BE1FE64937006E2F5C /* MyDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26568B831FE68B28006E2F5C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 26568B811FE68B28006E2F5C /* facebook.png */; };
+		26568B841FE68B28006E2F5C /* close-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 26568B821FE68B28006E2F5C /* close-circle.png */; };
+		26F451B01FE5018A00E05EF4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F451AE1FE5018A00E05EF4 /* FBSDKCoreKit.framework */; };
+		26F451B11FE5018A00E05EF4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F451AF1FE5018A00E05EF4 /* FBSDKLoginKit.framework */; };
+		26F451B31FE5069900E05EF4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F451B21FE5069900E05EF4 /* LoginViewController.xib */; };
+		26F451B51FE5088900E05EF4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F451B41FE5088900E05EF4 /* Bolts.framework */; };
+		26F451EB1FE5107F00E05EF4 /* FBSDKCoreKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = 26F451E41FE50EFF00E05EF4 /* FBSDKCoreKit.framework */; };
+		26F451EC1FE5107F00E05EF4 /* FBSDKLoginKit.framework in Sources */ = {isa = PBXBuildFile; fileRef = 26F451E31FE50EFF00E05EF4 /* FBSDKLoginKit.framework */; };
+		26F451ED1FE5107F00E05EF4 /* Bolts.framework in Sources */ = {isa = PBXBuildFile; fileRef = 26F451B61FE50B0700E05EF4 /* Bolts.framework */; };
+		26F451FC1FE516B500E05EF4 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F451F91FE516B500E05EF4 /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F451FD1FE516B500E05EF4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F451FA1FE516B500E05EF4 /* LoginViewController.m */; };
+		E8275CA1C80320F6D645CC7E /* libPods-ApiSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B228CC5863B09F4064DE3639 /* libPods-ApiSdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		264B04DC1FE4F8BC0050D350 /* ApiSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApiSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		264B04DF1FE4F8BC0050D350 /* ApiSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiSdk.h; sourceTree = "<group>"; };
 		264B04E01FE4F8BC0050D350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264B04EC1FE4FC080050D350 /* ConfigFacebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigFacebook.h; sourceTree = "<group>"; };
+		264B04ED1FE4FC080050D350 /* ConfigFacebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigFacebook.m; sourceTree = "<group>"; };
+		265689BE1FE64937006E2F5C /* MyDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDelegate.h; sourceTree = "<group>"; };
+		26568B531FE66035006E2F5C /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		26568B811FE68B28006E2F5C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		26568B821FE68B28006E2F5C /* close-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-circle.png"; sourceTree = "<group>"; };
+		26F451AE1FE5018A00E05EF4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.29.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		26F451AF1FE5018A00E05EF4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.29.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		26F451B21FE5069900E05EF4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		26F451B41FE5088900E05EF4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS-4.29.0/Bolts.framework"; sourceTree = "<group>"; };
+		26F451B61FE50B0700E05EF4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		26F451E31FE50EFF00E05EF4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Documents/FacebookSDKs-iOS-4.29.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		26F451E41FE50EFF00E05EF4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Documents/FacebookSDKs-iOS-4.29.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		26F451F91FE516B500E05EF4 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		26F451FA1FE516B500E05EF4 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7981A695D13AC53D3490F3C3 /* Pods-ApiSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiSdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiSdk/Pods-ApiSdk.release.xcconfig"; sourceTree = "<group>"; };
+		B228CC5863B09F4064DE3639 /* libPods-ApiSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApiSdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D74AFEA3BED30D14E7657F /* Pods-ApiSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiSdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiSdk/Pods-ApiSdk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F451B51FE5088900E05EF4 /* Bolts.framework in Frameworks */,
+				26F451B01FE5018A00E05EF4 /* FBSDKCoreKit.framework in Frameworks */,
+				26F451B11FE5018A00E05EF4 /* FBSDKLoginKit.framework in Frameworks */,
+				E8275CA1C80320F6D645CC7E /* libPods-ApiSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +69,8 @@
 			children = (
 				264B04DE1FE4F8BC0050D350 /* ApiSdk */,
 				264B04DD1FE4F8BC0050D350 /* Products */,
+				264B04E71FE4FB2E0050D350 /* Frameworks */,
+				FE1AE2A48B22AA590A0962A7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +85,50 @@
 		264B04DE1FE4F8BC0050D350 /* ApiSdk */ = {
 			isa = PBXGroup;
 			children = (
+				26568B801FE68B04006E2F5C /* images */,
+				26F451E41FE50EFF00E05EF4 /* FBSDKCoreKit.framework */,
+				26F451E31FE50EFF00E05EF4 /* FBSDKLoginKit.framework */,
+				26F451B61FE50B0700E05EF4 /* Bolts.framework */,
 				264B04DF1FE4F8BC0050D350 /* ApiSdk.h */,
 				264B04E01FE4F8BC0050D350 /* Info.plist */,
+				264B04EC1FE4FC080050D350 /* ConfigFacebook.h */,
+				264B04ED1FE4FC080050D350 /* ConfigFacebook.m */,
+				26F451B21FE5069900E05EF4 /* LoginViewController.xib */,
+				26F451F91FE516B500E05EF4 /* LoginViewController.h */,
+				26F451FA1FE516B500E05EF4 /* LoginViewController.m */,
+				265689BE1FE64937006E2F5C /* MyDelegate.h */,
+				26568B531FE66035006E2F5C /* Define.h */,
 			);
 			path = ApiSdk;
+			sourceTree = "<group>";
+		};
+		264B04E71FE4FB2E0050D350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F451B41FE5088900E05EF4 /* Bolts.framework */,
+				26F451AE1FE5018A00E05EF4 /* FBSDKCoreKit.framework */,
+				26F451AF1FE5018A00E05EF4 /* FBSDKLoginKit.framework */,
+				B228CC5863B09F4064DE3639 /* libPods-ApiSdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26568B801FE68B04006E2F5C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				26568B821FE68B28006E2F5C /* close-circle.png */,
+				26568B811FE68B28006E2F5C /* facebook.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FE1AE2A48B22AA590A0962A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D74AFEA3BED30D14E7657F /* Pods-ApiSdk.debug.xcconfig */,
+				7981A695D13AC53D3490F3C3 /* Pods-ApiSdk.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +138,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264B04EE1FE4FC080050D350 /* ConfigFacebook.h in Headers */,
 				264B04E11FE4F8BC0050D350 /* ApiSdk.h in Headers */,
+				265689C01FE64937006E2F5C /* MyDelegate.h in Headers */,
+				26F451FC1FE516B500E05EF4 /* LoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264B04E41FE4F8BC0050D350 /* Build configuration list for PBXNativeTarget "ApiSdk" */;
 			buildPhases = (
+				DB9C5BDBA303D9BBAEE84F5C /* [CP] Check Pods Manifest.lock */,
 				264B04D71FE4F8BC0050D350 /* Sources */,
 				264B04D81FE4F8BC0050D350 /* Frameworks */,
 				264B04D91FE4F8BC0050D350 /* Headers */,
 				264B04DA1FE4F8BC0050D350 /* Resources */,
+				5347741FE9E0BA1CA51389EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +189,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 264B04D21FE4F8BC0050D350;
 			productRefGroup = 264B04DD1FE4F8BC0050D350 /* Products */;
@@ -121,16 +206,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F451B31FE5069900E05EF4 /* LoginViewController.xib in Resources */,
+				26568B841FE68B28006E2F5C /* close-circle.png in Resources */,
+				26568B831FE68B28006E2F5C /* facebook.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5347741FE9E0BA1CA51389EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApiSdk/Pods-ApiSdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9C5BDBA303D9BBAEE84F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		264B04D71FE4F8BC0050D350 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F451EB1FE5107F00E05EF4 /* FBSDKCoreKit.framework in Sources */,
+				26F451EC1FE5107F00E05EF4 /* FBSDKLoginKit.framework in Sources */,
+				26F451ED1FE5107F00E05EF4 /* Bolts.framework in Sources */,
+				264B04EF1FE4FC080050D350 /* ConfigFacebook.m in Sources */,
+				26F451FD1FE516B500E05EF4 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +316,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -241,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -249,6 +377,7 @@
 		};
 		264B04E51FE4F8BC0050D350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D74AFEA3BED30D14E7657F /* Pods-ApiSdk.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -257,18 +386,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApiSdk",
+				);
 				INFOPLIST_FILE = ApiSdk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nccsoft.ApiSdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		264B04E61FE4F8BC0050D350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7981A695D13AC53D3490F3C3 /* Pods-ApiSdk.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -277,12 +413,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApiSdk",
+				);
 				INFOPLIST_FILE = ApiSdk/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nccsoft.ApiSdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
